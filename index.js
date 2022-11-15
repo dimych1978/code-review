@@ -1,42 +1,42 @@
 const button = document.querySelector('start-game');
 
-function month() {
-    const n = prompt('Введите номер месяца от 1 до 12');
+function getNumberOfMonth() {
+    const monthNumber = prompt('Введите номер месяца от 1 до 12');
 
-if (n === 1){
+if (monthNumber === 1){
     return 'Январь';
 }
-else if (n === 2){
+else if (monthNumber === 2){
     return 'Февраль';
 }
-else if (n === 3){
+else if (monthNumber === 3){
     return 'Март';
 }
-else if (n === 4){
+else if (monthNumber === 4){
     return 'Апрель';
 }
-else if (n === 5){
+else if (monthNumber === 5){
     return 'Май';
 }
-else if (n === 6){
+else if (monthNumber === 6){
     return 'Июнь';
 }
-else if (n === 7){
+else if (monthNumber === 7){
     return 'Июль';
 }
-else if (n === 8){
+else if (monthNumber === 8){
     return 'Август';
 }
-else if (n === 9){
+else if (monthNumber === 9){
     return 'Сентябрь';
 }
-else if (n === 10){
+else if (monthNumber === 10){
     return 'Октябрь';
 }
-else if (n === 11){
+else if (monthNumber === 11){
     return 'Ноябрь';
 }
-else if (n === 12){ 
+else if (monthNumber === 12){ 
     return 'Декабрь';
 }
 }
