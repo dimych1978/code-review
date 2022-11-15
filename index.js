@@ -36,7 +36,7 @@ else if (n === 10){
 else if (n === 11){
     return 'Ноябрь';
 }
-else if (n === 12){
+else if (n === 12){ 
     return 'Декабрь';
 }
 }
